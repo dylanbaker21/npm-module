@@ -2,4 +2,8 @@ function helloWorld() {
   return `Hello World`;
 }
 
-module.exports = { hello: helloWorld };
+function helloHuman(name) {
+  return `Hello ${name}`;
+}
+
+module.exports = { hello: helloWorld, hello2: helloHuman };
